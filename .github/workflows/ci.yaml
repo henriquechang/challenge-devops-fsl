@@ -3,9 +3,8 @@ name: CI Pipeline
 on: 
   pull_request:
     types: opened
-  push:
-    branches: ['devel', 'stage', 'prod']
-
+  push
+  
 jobs:
   build:
     runs-on: ubuntu-latest
